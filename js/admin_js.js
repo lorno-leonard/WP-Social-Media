@@ -1,0 +1,1 @@
+jQuery(".social-wrap").css("top","32px");

@@ -1,0 +1,226 @@
+.nova
+{
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.nova-container
+{
+    padding: 26px 30px 26px 30px;
+    margin: 30px 30px 26px 48px;
+    border: 1px solid #CCCCCC;
+    /*overflow: auto;*/
+}
+
+.nova-row
+{
+    width: 100%;
+    overflow: auto;
+}
+
+.nova strong
+{
+    font-weight: bold;
+}
+
+.nova-row:after {
+  clear: both;
+}
+
+.nova-button
+{
+    display: inline-block;
+    padding: 5px 12px;
+    margin-bottom: 0;
+    margin-right: 15px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+}
+
+.nova-button-primary
+{
+    background: #2ea2cc;
+    border-color: #0074a2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nova-button-secondary
+{
+    background: #f4f4f4;
+    border-color: #cccccc;
+    color: #959595;
+    text-decoration: none;
+}
+
+.nova-button-icon
+{
+    vertical-align: middle;
+    padding-right: 8px;    
+}
+
+.nova-field
+{
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    line-height: 1.428571429;
+    color: #444444;
+    vertical-align: middle;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+            transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+
+}
+.nova-short-field
+{
+    width: 100px;
+}
+
+.nova-medium-field
+{
+    width: 340px;
+}
+
+.nova-long-field
+{
+    width: 442px;
+}
+
+.nova-large-field
+{
+    width: 597px;
+    height: 100px;
+}
+
+#wp-nova_text_editor-wrap
+{
+    width: 597px;
+}
+
+.nova-text-field
+{
+    height: 150px;
+}
+
+.nova-label-column
+{
+    float: left;
+    width: 156px;
+    /*margin-left: 48px;*/
+    margin-right: 30px;
+    /*margin-top: 26px;
+    min-height: 300px;*/
+    /*border: 1px solid #CCCCCC;*/
+}
+
+.nova-label-column li
+{
+    font-weight: bold;
+    padding-top: 21px;
+}
+
+.nova-control-column
+{
+    float: left;
+   /* margin-top: 26px;
+    min-height: 300px;*/
+    /*border: 1px solid #CCCCCC;*/
+}
+
+.nova-switch
+{
+    height: 35px;
+    width: 150px;
+}
+.nova-switch label
+{
+    padding-top: 2px;
+}
+
+.nova-input-list
+{
+    padding-top: 3px;
+}
+
+.nova-input-list li
+{
+    padding-top: 7px;
+}
+
+.nova-checkbox input[type="checkbox"] {
+    display:none;
+}
+
+.nova-checkbox input[type="checkbox"] + label {
+    display:inline-block;
+    width:40px;
+    height:40px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(images/unchecked.png);
+    cursor:pointer;
+}
+
+.nova-checkbox input[type="checkbox"]:checked + label {
+    background:url(images/checked.png);
+}
+
+.nova-ck-slider-right
+{
+    border-radius: 0px 4px 4px 0px;
+}
+
+.nova-ck-slider-left
+{
+    border-radius: 4px 0px 0px 4px;
+}
+
+.nova-upload .nova-button-icon
+{
+    padding: 0;
+}
+
+.nova-upload .input-group-addon
+{
+    background-color: #eeeeee;
+}
+
+.nova-upload input[type=file]
+{
+    display: none;
+    
+}
+
+.nova-upload .nova-upload-trigger
+{
+    cursor: pointer;
+}
+
+.nova-upload .thumbnail
+{
+    float: left;
+    padding-left: 30px;
+}
+.nova-upload .input-group
+{
+    float: left;
+}
